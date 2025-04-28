@@ -21,7 +21,7 @@ This guide explains how to migrate data from one Firebase Database to another Fi
 
 ## Project Structure
 firebase-data-import/
-├── firebase-service-account.json
+  ├── firebase-service-account.json
 ├── importData.js
 ├── package.json
 └── node_modules/
