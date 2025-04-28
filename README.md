@@ -20,9 +20,9 @@ This guide explains how to migrate data from one Firebase Database to another Fi
 ---
 
 ## Project Structure
-firebase-data-import/
-  ├── firebase-service-account.json
-├── importData.js
+`firebase-data-import/`
+  - `├── firebase-service-account.json`
+  - `├── importData.js`
 ├── package.json
 └── node_modules/
 
@@ -34,10 +34,9 @@ firebase-data-import/
 1. Clone or prepare your project folder.
 
 2. Install required dependencies:
+    - `npm install firebase-admin @google-cloud/firestore`
 
-npm install firebase-admin @google-cloud/firestore
-
-3. Edit your importData.js if you want to add or remove collections to upload.
+3. Edit your `importData.js` if you want to add or remove collections to upload.
 
 4. Run the migration script:
-node importData.js
+    - `node importData.js`
