@@ -15,7 +15,7 @@ This guide explains how to migrate data from one Firebase Database to another Fi
 
 - Node.js installed 
 - A `firebase-service-account.json` file (download it from your Firebase Console → Project Settings → Service Accounts)
-- JSON export files (like `users.json`, `administrators.json`, etc.)
+- JSON export files (like `users.json`, `task.json`, etc.)
 
 ---
 
@@ -23,9 +23,8 @@ This guide explains how to migrate data from one Firebase Database to another Fi
 `firebase-data-import/`
   - `├── firebase-service-account.json`
   - `├── importData.js`
-├── package.json
-└── node_modules/
-
+  - `├── package.json`
+  - `└── node_modules/`
 
 ---
 
