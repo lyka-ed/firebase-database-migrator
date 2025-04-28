@@ -32,7 +32,7 @@ async function uploadCollection(collectionName, jsonFilePath) {
 
 // upload all your JSON files here
 async function main() {
-    await uploadCollection('users', './users.json'); // user.json is an example
+    await uploadCollection('users', './users.json'); // user.json is an exampl
    
 }
 
