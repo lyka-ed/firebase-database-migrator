@@ -79,7 +79,7 @@ async function importCollection(collectionRef, collectionData) {
 }
 
 async function main() {
-  console.log(`🚀 Starting Recursive Cloud Firestore Import...`);
+  console.log(`Starting Recursive Cloud Firestore Import...`);
   const startTime = Date.now();
   let allData;
 
